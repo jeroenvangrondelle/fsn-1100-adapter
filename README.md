@@ -2,9 +2,6 @@
 
 ![OpenSCAD preview](docs/sketch.jpeg)
 
-
-![OpenSCAD preview](docs/openscad.png)
-
 ## Supported Models
 
 | Model | Base Plate Width | Base Plate Height Front | Base Plate Height Back | Distance Blade - Ruler | STL |
