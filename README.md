@@ -1,6 +1,6 @@
 # FSN 1100 Adapter for Circular Saw
 
-![OpenSCAD preview](docs/sketch.jpeg)
+![OpenSCAD preview](docs/sketch.png)
 
 ## Supported Models
 
