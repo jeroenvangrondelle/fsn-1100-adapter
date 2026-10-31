@@ -2,7 +2,6 @@
 
 ![OpenSCAD preview](docs/openscad.png)
 
-
 ## Supported Models
 
 | Model | Base Plate Width | Base Plate Height Front | Base Plate Height Back | Distance Blade - Ruler | STL |
@@ -11,11 +10,14 @@
 
 ## Printing the adapter
 
-Use PETG
+- Use PETG
+- Flip the adapters for printing without support.
 
 ## TODO
 
-- [ ] Serious cleaning up and parametrization
+- [ ] Serious cleaning up
+- [ ] Base plate parametrization
+- [ ] Saw distance parametrization
 
 # License
 
