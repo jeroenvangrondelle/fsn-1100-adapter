@@ -3,15 +3,18 @@ include <BOSL2/std.scad>
 $fn=100;
 
 
-length=40;
-width=147;
-
-excentric = 3.5;
+// FSN100
 sleuf=2.8;
 
 
+// GKS 55
+width=147;
+front_height=11;
+back_height=9;
 
-// slee_hoogte: VOOR 11, ACHTER 9
+// Adapter
+length=40;
+excentric = 3.5;
 
 
 module foot(slee_hoogte) {
@@ -40,5 +43,5 @@ up(7+slee_hoogte) left((width+17)/2-10) cuboid([17, length+7, 3], anchor=BOTTOM,
 
 }
 
-foot(11);
-fwd(100) yflip() foot(9);
+foot(front_height);
+fwd(100) yflip() foot(back_height);
